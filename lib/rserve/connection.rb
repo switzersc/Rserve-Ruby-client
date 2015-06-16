@@ -105,8 +105,9 @@ module Rserve
       @rt=Rserve::Talk.new(@s)
       if @session.nil?
         puts "Connected"
-        # Accept first input
-        # input=@s.recv(32).unpack("a4a4a4a4a4a4a4a4")
+        Accept first input
+        input=@s.recv(32).unpack("a4a4a4a4a4a4a4a4")
+        puts "Input received: #{input}"
         # raise IncorrectServerError, "Handshake failed: Rsrv signature expected, but received [#{input[0]}]" unless input[0]=="Rsrv"
         # @rsrv_version=input[1].to_i
         # raise IncorrectServerVersionError, "Handshake failed: The server uses more recent protocol than this client." if @rsrv_version>103
