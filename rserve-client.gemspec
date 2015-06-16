@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "rserve-client"
-  s.version = 0.3.1
+  s.version = '0.3.1'
   s.platform = Gem::Platform::RUBY
   s.authors = ['Claudio Bustos']
   s.email = []
