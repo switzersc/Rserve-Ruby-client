@@ -1,10 +1,8 @@
 # -*- encoding: utf-8 -*-
-$:<< File.join(File.dirname(__FILE__), 'lib/rserve')
-require './../lib/rserve'
 
 Gem::Specification.new do |s|
   s.name = "rserve-client"
-  s.version = Rserve::VERSION
+  s.version = 0.3.1
   s.platform = Gem::Platform::RUBY
   s.authors = ['Claudio Bustos']
   s.email = []
