@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
+$:<< File.join(File.dirname(__FILE__), 'lib/rserve')
 require 'rserve'
 
 Gem::Specification.new do |s|
