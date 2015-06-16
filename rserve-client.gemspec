@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:<< File.join(File.dirname(__FILE__), 'lib/rserve')
-require 'rserve'
+require_relative '../lib/rserve'
 
 Gem::Specification.new do |s|
   s.name = "rserve-client"
